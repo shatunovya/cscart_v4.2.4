@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::google_sitemap"
+msgid "Google sitemap"
+msgstr "Googleサイトマップ"
+
+msgctxt "Addons::description::google_sitemap"
+msgid "Creates a sitemap.xml for Google"
+msgstr "Googleサイトマップを作成します"
+
+msgctxt "Languages::google_sitemap.text_regenerate"
+msgid "If products, categories, etc. were added or changed, please <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">Regenerate a sitemap</a><br /><br /> [sitemap_available_in_customer]"
+msgstr "商品やカテゴリーなどを追加または更新した場合には <a class=\"cm-ajax cm-comet btn btn-primary\" href=\"[regenerate_url]\">サイトマップの再作成</a> を実行してください。<br /><br /> [sitemap_available_in_customer]"
+
+msgctxt "Languages::google_sitemap.text_select_storefront"
+msgid "To generate a sitemap, please select storefront first."
+msgstr "サイトマップを作成をするショップを指定してください。"
+
+msgctxt "Languages::sitemap_available_in_customer"
+msgid "Sitemap is available by this link: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />Sitemap can be reached by the URL <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+msgstr "サイトマップはこちらのリンクから参照可能です: <a href=\"[sitemap_url]\">[sitemap_url]</a><br /><br />※ 次のURLからもアクセス可能です: <a href=\"[http_location]/sitemap.xml\">[http_location]/sitemap.xml</a>"
+
+msgctxt "Languages::always"
+msgid "Always"
+msgstr "都度更新"
+
+msgctxt "Languages::hourly"
+msgid "Hourly"
+msgstr "1時間に1回"
+
+msgctxt "Languages::daily"
+msgid "Daily"
+msgstr "1日1回"
+
+msgctxt "Languages::weekly"
+msgid "Weekly"
+msgstr "週1回"
+
+msgctxt "Languages::monthly"
+msgid "Monthly"
+msgstr "月1回"
+
+msgctxt "Languages::yearly"
+msgid "Yearly"
+msgstr "年1回"
+
+msgctxt "Languages::never"
+msgid "Never"
+msgstr "更新しない"
+
+msgctxt "Languages::google_sitemap.generate_map"
+msgid "The sitemap is not generated yet. Please go to addon settings and press \"Regenerate a sitemap\" button"
+msgstr "サイトマップはまだ作成されていません。アドオンの設定ページに移動して \"サイトマップの再作成\" ボタンをクリックしてください"
+
+msgctxt "Languages::google_sitemap.map_generated"
+msgid "The sitemap was generated successfully"
+msgstr "サイトマップが生成されました"
+
+msgctxt "SettingsSections::google_sitemap::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::google_sitemap::information"
+msgid "Information"
+msgstr "本アドオンについて"
+
+msgctxt "SettingsOptions::google_sitemap::clear_url"
+msgid "Clear cache"
+msgstr "キャッシュのクリア"
+
+msgctxt "SettingsOptions::google_sitemap::site_setting"
+msgid "Homepage settings"
+msgstr "トップページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::site_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::site_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::products_setting"
+msgid "Products settings"
+msgstr "商品ページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_products"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::products_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::products_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::categories_setting"
+msgid "Categories settings"
+msgstr "カテゴリーページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_categories"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::categories_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::categories_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::pages_setting"
+msgid "Pages settings"
+msgstr "「ページ」機能で作成したページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_pages"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::pages_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::pages_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::news_setting"
+msgid "News settings"
+msgstr "新着情報ページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_news"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::news_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::news_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::extended_setting"
+msgid "Brand/Manufacturer feature pages settings"
+msgstr "ブランド/メーカー特集ページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_extended"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::extended_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::extended_priority"
+msgid "Priority"
+msgstr "優先度"
+
+msgctxt "SettingsOptions::google_sitemap::companies_setting"
+msgid "Companies settings"
+msgstr "会社情報ページに関する設定"
+
+msgctxt "SettingsOptions::google_sitemap::include_companies"
+msgid "Include in sitemap"
+msgstr "サイトマップに含める"
+
+msgctxt "SettingsOptions::google_sitemap::companies_change"
+msgid "Update frequency"
+msgstr "更新頻度"
+
+msgctxt "SettingsOptions::google_sitemap::companies_priority"
+msgid "Priority"
+msgstr "優先度"
+

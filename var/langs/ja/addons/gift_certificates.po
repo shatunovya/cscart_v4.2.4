@@ -1,0 +1,255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::gift_certificates"
+msgid "Gift certificates"
+msgstr "ギフト券"
+
+msgctxt "Addons::description::gift_certificates"
+msgid "Adds a built-in gift certificate system"
+msgstr "ギフト券を販売・利用可能にします"
+
+msgctxt "Languages::gift_certificate"
+msgid "Gift certificate"
+msgstr "ギフト券"
+
+msgctxt "Languages::gift_certificates"
+msgid "Gift certificates"
+msgstr "ギフト券"
+
+msgctxt "Languages::gift_certificates_menu_description"
+msgid "View and manage the gift certificates that customers have purchased."
+msgstr "お客様が購入したギフト券の管理"
+
+msgctxt "Languages::gift_certificate_info"
+msgid "Gift certificate info"
+msgstr "ギフト券の情報"
+
+msgctxt "Languages::gift_certificate_verification"
+msgid "Gift certificate verification"
+msgstr "ギフト券の認証"
+
+msgctxt "Languages::gift_cert_code"
+msgid "Gift certificate code"
+msgstr "ギフト券コード"
+
+msgctxt "Languages::gift_cert_debit"
+msgid "Debit balance"
+msgstr "残高"
+
+msgctxt "Languages::gift_cert_from"
+msgid "From"
+msgstr "From"
+
+msgctxt "Languages::gift_cert_to"
+msgid "To"
+msgstr "To"
+
+msgctxt "Languages::promotion_bonus_gift_certificate"
+msgid "Gift certificate"
+msgstr "ギフト券"
+
+msgctxt "Languages::purchase_gift_certificate"
+msgid "Purchase Gift Certificate"
+msgstr "ギフト券の購入"
+
+msgctxt "Languages::text_gift_certificate_logo"
+msgid "Logo for <b>gift certificates</b>"
+msgstr "<b>ギフト券</b>用ロゴ"
+
+msgctxt "Languages::text_gift_cert_amount_alert"
+msgid "Amount should be between [min] and [max]"
+msgstr "金額は [min] から [max] の間で指定してください"
+
+msgctxt "Languages::text_gift_cert_has_been_deleted"
+msgid "Gift certificate has been deleted successfully."
+msgstr "ギフト券が削除されました。"
+
+msgctxt "Languages::error_gift_cert_code"
+msgid "The gift certificate code you entered is invalid. Please try again."
+msgstr "ギフト券コードが正しくありません。再度入力してください。"
+
+msgctxt "Languages::gift_add_products"
+msgid "Add products for a gift"
+msgstr "ギフト用商品の追加"
+
+msgctxt "Languages::gift_comment"
+msgid "Message"
+msgstr "コメント"
+
+msgctxt "Languages::certificate_verification"
+msgid "Validate/Redeem gift certificate"
+msgstr "ギフト券の認証/利用"
+
+msgctxt "Languages::detailed_info"
+msgid "Detailed information"
+msgstr "詳細情報"
+
+msgctxt "Languages::history"
+msgid "History"
+msgstr "履歴"
+
+msgctxt "Languages::gift_certificate_statuses"
+msgid "Gift certificate statuses"
+msgstr "ギフト券のステータス"
+
+msgctxt "Languages::text_gift_cert_applied"
+msgid "Gift certificate has been applied"
+msgstr "ギフト券が適用されました"
+
+msgctxt "Languages::certificate_already_used"
+msgid "This gift certificate is already in use"
+msgstr "このギフト券はすでに使用されています"
+
+msgctxt "Languages::certificate_code_not_available"
+msgid "Gift certificate cannot be applied. Please contact the store administration."
+msgstr "ギフト券が利用できません。ショップ管理者にご連絡ください。"
+
+msgctxt "Languages::certificate_code_not_valid"
+msgid "Gift certificate code is not valid"
+msgstr "無効なギフト券コードです"
+
+msgctxt "Languages::warning_gift_cert_deny"
+msgid "The following gift certificates have been deleted or cancelled by administrator and have been removed from your cart: [codes]. Please contact the store administrator or try another one."
+msgstr "ギフト券 [codes]は管理者により削除またはキャンセルされました。ショップ管理者にお問い合わせいただくか新たにギフト券をご購入ください。"
+
+msgctxt "Languages::text_gift_cert_cannot_delete"
+msgid "Gift certificate [code] cannot be deleted because it is used in order(s) [ids]."
+msgstr "ギフト券 [code] は注文  [ids] で使用されているため削除できません。"
+
+msgctxt "Languages::gift_cert_amount_changed"
+msgid "Gift certificate amount has been changed."
+msgstr "ギフト券の金額が変更されました。"
+
+msgctxt "Languages::purchased"
+msgid "Purchased"
+msgstr "購入済み"
+
+msgctxt "Languages::used"
+msgid "Used"
+msgstr "使用済み"
+
+msgctxt "Languages::create_gift_certificate_for_customer"
+msgid "Create Gift Certificate for this customer"
+msgstr "このお客様向けにギフト券を作成"
+
+msgctxt "Languages::related_gift_cert"
+msgid "Related gift certificates"
+msgstr "関連するギフト券"
+
+msgctxt "Languages::add_gift_certificate"
+msgid "Add gift certificate"
+msgstr "ギフト券を追加"
+
+msgctxt "Languages::gift_certificate_status"
+msgid "Gift certificate status"
+msgstr "ギフト券のステータス"
+
+msgctxt "Languages::current_amount"
+msgid "Current amount"
+msgstr "現在の金額"
+
+msgctxt "Languages::mail"
+msgid "Mail"
+msgstr "メール"
+
+msgctxt "Languages::statuses"
+msgid "statuses"
+msgstr "ステータス"
+
+msgctxt "Languages::new_certificate"
+msgid "New certificate"
+msgstr "ギフト券の追加"
+
+msgctxt "Languages::editing_certificate"
+msgid "Editing certificate"
+msgstr "ギフト券の編集"
+
+msgctxt "Languages::shop_now"
+msgid "Shop now"
+msgstr "今すぐお買い物"
+
+msgctxt "Languages::theme_editor.gift_cert"
+msgid "Gift Certificate"
+msgstr "ギフト券"
+
+msgctxt "Languages::promo_code_or_certificate"
+msgid "Gift certificate or promo code"
+msgstr "ギフト券またはキャンペーンコード"
+
+msgctxt "Languages::gift_certificate_added_to_cart"
+msgid "Gift certificate was added to your cart"
+msgstr "ギフト券がカートに追加されました"
+
+msgctxt "Languages::gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "ギフト券の認証"
+
+msgctxt "Languages::block_gift_certificates_verify"
+msgid "Gift certificate verification"
+msgstr "ギフト券の認証"
+
+msgctxt "Languages::block_gift_certificates_verify_description"
+msgid "Gift certificate input and validation"
+msgstr "ギフト券の入力と認証"
+
+msgctxt "Languages::recipients_name"
+msgid "To"
+msgstr "ギフト券を受け取る方のお名前"
+
+msgctxt "Languages::purchasers_name"
+msgid "From"
+msgstr "ギフト券の贈り主のお名前"
+
+msgctxt "Languages::gift_cert_error_amount"
+msgid "Amount should not be higher than [max] and less than [min]"
+msgstr "金額には [min] 以上かつ [max] 以下の値を指定してください"
+
+msgctxt "Languages::privileges.manage_gift_certificates"
+msgid "Manage gift certificate system"
+msgstr "ギフト券システムの管理"
+
+msgctxt "Languages::change_gift_certificate_status"
+msgid "Change gift certificate status to"
+msgstr "ギフト券のステータスを変更 : "
+
+msgctxt "Languages::gift_cert_with_products"
+msgid "Purchasing products and gift certificates together is impossible. Please, place the current order and repeat your attempt."
+msgstr "商品とギフト券を同時に購入することはできません。"
+
+msgctxt "SettingsSections::gift_certificates::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::gift_certificates::min_amount"
+msgid "Minimal amount"
+msgstr "最低金額"
+
+msgctxt "SettingsOptions::gift_certificates::max_amount"
+msgid "Maximal amount"
+msgstr "最高金額"
+
+msgctxt "SettingsOptions::gift_certificates::code_prefix"
+msgid "GC Code prefix"
+msgstr "ギフト券コードのプリフィックス"
+
+msgctxt "SettingsOptions::gift_certificates::cert_per_page"
+msgid "Gift certificates per page"
+msgstr "１ページあたりのギフト券表示件数"
+
+msgctxt "SettingsOptions::gift_certificates::free_products_allow"
+msgid "Allow to use free products"
+msgstr "商品無料プレゼントの許可"
+
+msgctxt "SettingsOptions::gift_certificates::redeem_shipping_cost"
+msgid "Allow to redeem shipping cost with gift certificate"
+msgstr "送料へのギフト券使用の許可"
+

@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-05 07:00-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Τιμοκατάλογος"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "Δημιουργεί διαμορφώσιμες λίστες τιμών σε PDF ή XLS"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Τιμοκατάλογος"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "Επιλεγμένα πεδία"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "Χρησιμοποιήστε αυτό το σύνδεσμο για να κατεβάσετε τον τιμοκατάλογο σε μορφή XLS (MS Excel)"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "Χρησιμοποιήστε τους συνδεσμους για να κατεβάσετε τον τιμοκατάλογο σε μορφή XLS (MS Excel)"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "Χρησιμοποιήστε αυτό το σύνδεσμο για να κατεβάσετε τον τιμοκατάλογο σε μορφή PDF"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "Χρησιμοποιήστε τους συνδεσμους για να κατεβάσετε τον τιμοκατάλογο σε μορφή PDF"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "Εάν εχουν προστεθεί ή τροποποιηθεί στήλες, παρακαλούμε να <a href=\"[clear_cache_url]\"> καθαρίσετε την cache</a> για να αναπαραχθεί ο τιμοκατάλογος."
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "Δημιουργία PDF. Παρακαλώ, περιμένετε..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "Δημιουργία XLS. Παρακαλώ, περιμένετε..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "Παρακαλείστε να σημειώσετε: οι τιμές σε XLS θα αναφέρoνται στη νομισματική μονάδα βάσης."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "Αδύνατο να δημιουργηθεί λίστα τιμών XML. Παρακαλείσθε να προσθέσετε zip υποστήριξη στην PHP του διακομιστή σας. Ακολουθήστε αυτό το σύνδεσμο <a href=\"http://www.php.net/manual/en/zip.installation.php\"> http://www.php.net/manual/en/zip.installation.php</a>."
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "Πίνακας διάταξης"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Πεδία"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Ταξινόμηση ως πρός"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Ομαδοποίηση κατά κατηγορία"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Να περιλαμβάνονται επιλογές του προϊόντος"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "XLS διάταξη"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "XLS url"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "Διαταξη PDF"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "PDF url"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "Καθαρισμός cache"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "Καθαρισμός cache"
+

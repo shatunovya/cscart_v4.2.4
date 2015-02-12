@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "フォームビルダー"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us or Apply for partnership)"
+msgstr "オリジナルのフォーム（お問い合わせフォームなど）を作成できます"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "新しいフォーム"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "フォームの編集"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "フォームビルダー"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "フォーム送信完了メッセージ"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "送信先Eメール"
+
+msgctxt "Languages::form_is_secure"
+msgid "Form is secure (SSL)"
+msgstr "フォームをSSLで保護"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "フォームの追加"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "ベース"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "チェックボックス（複数選択可）"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "セレクトボックス（複数選択可）"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "ヘッダー"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "セパレーター"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "スペシャル"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "国名リスト"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "都道府県/州リスト"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "リファラ"
+

@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::discussion"
+msgid "Comments and reviews"
+msgstr "コメントとレビュー"
+
+msgctxt "Addons::description::discussion"
+msgid "Lets customers leave comments to products, categories, orders, etc., review products and write testimonials"
+msgstr "ユーザーがコメントや商品レビューを投稿することができます"
+
+msgctxt "Languages::comments_and_reviews_menu_description"
+msgid "Customer comments and reviews on products, categories, orders, etc."
+msgstr "商品、カテゴリー、注文などに対するお客様コメントおよびレビュー"
+
+msgctxt "Languages::discussion_title_category"
+msgid "Reviews"
+msgstr "レビュー"
+
+msgctxt "Languages::discussion_title_giftreg"
+msgid "Guestbook"
+msgstr "ゲストブック"
+
+msgctxt "Languages::discussion_title_home_page_menu_description"
+msgid "Manage the testimonials from your store visitors."
+msgstr "お客様の声の管理"
+
+msgctxt "Languages::discussion_title_news"
+msgid "Comments"
+msgstr "コメント"
+
+msgctxt "Languages::discussion_title_order"
+msgid "Communication"
+msgstr "注文に関するコメント"
+
+msgctxt "Languages::discussion_title_page"
+msgid "Comments"
+msgstr "コメント"
+
+msgctxt "Languages::discussion_title_product"
+msgid "Reviews"
+msgstr "レビュー"
+
+msgctxt "Languages::discussion_title_return"
+msgid "Communication"
+msgstr "返品に関する連絡"
+
+msgctxt "Languages::no_posts_found"
+msgid "No posts found"
+msgstr "投稿はありません"
+
+msgctxt "Languages::your_rating"
+msgid "Your rating"
+msgstr "あなたの評価"
+
+msgctxt "Languages::comments_and_reviews"
+msgid "Comments and reviews"
+msgstr "コメントとレビュー"
+
+msgctxt "Languages::discussion_title_home_page"
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgctxt "Languages::text_enabled_testimonials_notice"
+msgid "Testimonials are disabled. To enable, please go to <a href=\"[link]\">Comments and reviews: options</a> and select the \"Communication\", \"Rating\" or \"Communication and Rating\" value in \"Testimonials\" field."
+msgstr "\"お客様の声\"は無効化されています。 有効化するには <a href=\"[link]\">\"コメントとレビュー\" アドオンの \"お客様の声\" タブ</a> に移動し、\"お客様の声\" に \"無効\" 以外の値を指定してください。"
+
+msgctxt "Languages::discussion_title_company"
+msgid "Reviews"
+msgstr "投稿"
+
+msgctxt "Languages::communication"
+msgid "Communication"
+msgstr "メッセージ"
+
+msgctxt "Languages::rating"
+msgid "Rating"
+msgstr "評価"
+
+msgctxt "Languages::cant_find_thread"
+msgid "Thread can not be found."
+msgstr "スレッドが見つかりません"
+
+msgctxt "Languages::error_already_posted"
+msgid "You have posted in this discussion already"
+msgstr "このトピックについてはすでに投稿済みです。"
+
+msgctxt "Languages::text_thank_you_for_post"
+msgid "Thank you for your post"
+msgstr "投稿ありがとうございました"
+
+msgctxt "Languages::text_post_pended"
+msgid "Your post will be checked before it gets published."
+msgstr "投稿いただいた内容は管理者の確認後に掲載されます。"
+
+msgctxt "Languages::discussion"
+msgid "Comments and reviews"
+msgstr "コメントとレビュー"
+
+msgctxt "Languages::text_new_post_notification"
+msgid "This is a notification of a new post to"
+msgstr "に関するメッセージです。"
+
+msgctxt "Languages::text_approval_notice"
+msgid "This post needs approving"
+msgstr "この投稿は管理者の承認が必要です"
+
+msgctxt "Languages::latest_reviews"
+msgid "Latest comments & reviews"
+msgstr "最新のコメント & レビュー"
+
+msgctxt "Languages::comment_by"
+msgid "Comment by"
+msgstr "投稿者："
+
+msgctxt "Languages::and"
+msgid "and"
+msgstr "と"
+
+msgctxt "Languages::add_post"
+msgid "Add post"
+msgstr "新規メッセージ"
+
+msgctxt "Languages::not_approved"
+msgid "Not approved"
+msgstr "未承認"
+
+msgctxt "Languages::discussion_manager"
+msgid "Comments and reviews"
+msgstr "コメントとレビュー"
+
+msgctxt "Languages::testimonials"
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgctxt "Languages::privileges.view_discussions"
+msgid "View comments and reviews"
+msgstr "コメントとレビューの閲覧"
+
+msgctxt "Languages::privileges.manage_discussions"
+msgid "Manage comments and reviews"
+msgstr "コメントとレビューの管理"
+
+msgctxt "Languages::block_testimonials"
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgctxt "Languages::block_testimonials_description"
+msgid "User testimonials"
+msgstr "お客様の声"
+
+msgctxt "Languages::sort_by_rating_asc"
+msgid "Sort by rating: Low to High"
+msgstr "評価の低い順"
+
+msgctxt "Languages::sort_by_rating_desc"
+msgid "Sort by rating"
+msgstr "評価の高い順"
+
+msgctxt "Languages::reviews"
+msgid "review|reviews"
+msgstr "レビュー"
+
+msgctxt "Languages::write_review"
+msgid "Write a review"
+msgstr "レビューを書く"
+
+msgctxt "SettingsSections::discussion::products"
+msgid "Products"
+msgstr "商品"
+
+msgctxt "SettingsSections::discussion::categories"
+msgid "Categories"
+msgstr "カテゴリー"
+
+msgctxt "SettingsSections::discussion::orders"
+msgid "Orders"
+msgstr "注文"
+
+msgctxt "SettingsSections::discussion::news"
+msgid "News"
+msgstr "新着情報"
+
+msgctxt "SettingsSections::discussion::gift_registry"
+msgid "Gift registry"
+msgstr "ギフト登録"
+
+msgctxt "SettingsSections::discussion::pages"
+msgid "Pages"
+msgstr "ページ"
+
+msgctxt "SettingsSections::discussion::testimonials"
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgctxt "SettingsSections::discussion::companies"
+msgid "Vendors"
+msgstr "出品者"
+
+msgctxt "SettingsOptions::discussion::product_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::product_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::product_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::product_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::product_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "出品者に通知"
+
+msgctxt "SettingsOptions::discussion::product_share_discussion"
+msgid "Share discussion with product"
+msgstr "商品へのコメントを複数ショップで共有"
+
+msgctxt "SettingsOptions::discussion::category_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::category_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::category_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::category_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::order_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::order_initiate"
+msgid "Allow customer to initiate discussion"
+msgstr "顧客からのコメント投稿を許可"
+
+msgctxt "SettingsOptions::discussion::order_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "出品者に通知"
+
+msgctxt "SettingsOptions::discussion::news_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::news_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::news_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::news_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::news_share_discussion"
+msgid "Share discussion with news"
+msgstr "新着情報へのコメントを複数ショップで共有"
+
+msgctxt "SettingsOptions::discussion::giftreg_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::giftreg_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::page_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::page_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "出品者に通知"
+
+msgctxt "SettingsOptions::discussion::page_share_discussion"
+msgid "Share discussion with page"
+msgstr "ページへのコメントを複数ショップで共有"
+
+msgctxt "SettingsOptions::discussion::home_page_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::home_page_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::home_page_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::home_page_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::home_page_testimonials"
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgctxt "SettingsOptions::discussion::testimonials_from_all_stores"
+msgid "Show testimonials from all stores"
+msgstr "お客様の声を複数ショップで共有"
+
+msgctxt "SettingsOptions::discussion::company_discussion_type"
+msgid "Reviews"
+msgstr "レビュー"
+
+msgctxt "SettingsOptions::discussion::company_only_buyers"
+msgid "Allow to post only for the customers who has bought somethins from the vendor"
+msgstr "出品者取扱商品の購入実績のあるユーザーのみ投稿を許可"
+
+msgctxt "SettingsOptions::discussion::company_posts_per_page"
+msgid "Posts per page"
+msgstr "1ページあたりの表示件数"
+
+msgctxt "SettingsOptions::discussion::company_post_approval"
+msgid "Administrator must approve posts submitted by"
+msgstr "投稿について管理者の承認が必要な顧客タイプ"
+
+msgctxt "SettingsOptions::discussion::company_post_ip_check"
+msgid "Only one post from one IP is allowed"
+msgstr "1IPにつき1件の投稿のみ許可"
+
+msgctxt "SettingsOptions::discussion::company_notification_email"
+msgid "Send notifications to this E-mail"
+msgstr "投稿通知先Eメール"
+
+msgctxt "SettingsOptions::discussion::company_notify_vendor"
+msgid "Send notifications to vendor"
+msgstr "出品者に通知"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::company_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::B"
+msgid "Communication and Rating"
+msgstr "メッセージと評価"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::C"
+msgid "Communication"
+msgstr "メッセージ"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::R"
+msgid "Rating"
+msgstr "評価"
+
+msgctxt "SettingsVariants::discussion::company_discussion_type::D"
+msgid "Disabled"
+msgstr "無効"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::product_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::category_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::news_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::any"
+msgid "Any customer"
+msgstr "すべての顧客"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::anonymous"
+msgid "Only anonymous customers"
+msgstr "会員登録なしの顧客のみ"
+
+msgctxt "SettingsVariants::discussion::home_page_post_approval::disabled"
+msgid "No approval needed"
+msgstr "承認不要"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::B"
+msgid "Communication and Rating"
+msgstr "メッセージと評価"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::C"
+msgid "Communication"
+msgstr "メッセージ"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::R"
+msgid "Rating"
+msgstr "評価"
+
+msgctxt "SettingsVariants::discussion::home_page_testimonials::D"
+msgid "Disabled"
+msgstr "無効"
+

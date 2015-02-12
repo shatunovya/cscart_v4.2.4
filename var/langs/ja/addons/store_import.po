@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::store_import"
+msgid "Store Import"
+msgstr "ショップ移行ツール"
+
+msgctxt "Addons::description::store_import"
+msgid "Lets you import data from any existing version of CS-Cart from 2.2.4 (except for Community edition) into the current version."
+msgstr "CS-Cartプロ版v2.2.4-jp-2またはプロ版およびマーケットプレイス版v3.0.6-jp-1からデータを移行します"
+
+msgctxt "Languages::store_import.full_path_installation_directory"
+msgid "Full path to the store installation directory"
+msgstr "インポート元ショップがインストールされたディレクトリのフルパスを入力してください"
+
+msgctxt "Languages::store_import.start_new_store_import"
+msgid "Start new store import"
+msgstr "ショップデータのインポートの開始"
+
+msgctxt "Languages::store_import.first_step"
+msgid "Select store"
+msgstr "ショップの指定"
+
+msgctxt "Languages::store_import.second_step"
+msgid "Validate and import"
+msgstr "データの検証とインポート"
+
+msgctxt "Languages::store_import.cannot_connect_to_database_server"
+msgid "Cannot connect to the database server"
+msgstr "データベースサーバーに接続できません"
+
+msgctxt "Languages::store_import.check_company_count_failed"
+msgid "Cannot start actualizing data due to Storefront/Vendor changes"
+msgstr "ショップまたは出品者情報が変更されているため更新データを反映できません"
+
+msgctxt "Languages::store_import.completed"
+msgid "<p>The store import is complete!</p>"
+msgstr "<p>ショップデータの移行が完了しました！</p>"
+
+msgctxt "Languages::store_import.completed_text_ult"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><li>Set the correct Storefront URL in the Administration->Stores section.</li></ul><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>ショップを本番稼働させるためには以下の作業が必要です :</p><ul><li>インポート先ショップがインストールされているサーバーのディレクトリ名を本番用ディレクトリに変更（本番用ディレクトリに配置されていた旧ショップのファイルは別ディレクトリに移動させるか削除してください）</li><li><b>config.local.php</b> で定義されている以下の設定値を本番環境用の値に変更 : http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index（マーケットプレイス版のみ）</li><li>一般設定 -> ショップ から各ショップに対して「ショップフロントのURL」を本番環境用の値に変更</li></ul><p>新たにショップデータをインポートするには <b>ショップデータのインポートの開始</b> をクリックしてください。</p>"
+
+msgctxt "Languages::store_import.completed_text_mve"
+msgid "<p>In order to go live, you should perform the following steps:</p><ul><li>Overwrite your existing store folder with the new one.</li><li>Set the correct values for the following variables: http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index.</li><p>To start another store import, click <b>Start new store import.</b></p>"
+msgstr "<p>ショップを本番稼働させるためには以下の作業が必要です :</p><ul><li>インポート先ショップがインストールされているサーバーのディレクトリ名を本番用ディレクトリに変更（本番用ディレクトリに配置されていた旧ショップのファイルは別ディレクトリに移動させるか削除してください）</li><li><b>config.local.php</b> で定義されている以下の設定値を本番環境用の値に変更 : http_host, http_path, https_host, https_path, customer_index, admin_index, vendor_index（マーケットプレイス版のみ）</li></ul><p>新たにショップデータをインポートするには <b>ショップデータのインポートの開始</b> をクリックしてください。</p>"
+
+msgctxt "Languages::store_import.actualize_data_text"
+msgid "<p>Last data import was made on <b>[date]</b> from <b>CS-Cart [version] [edition].</b></p><p>To actualize the data since the last import, click <b>Actualize data</b> (Only design and settings <span>will be kept</span>.) This process can be done repeatedly. When actualizing is over you will see this page again.</p><p>Whenever you're ready to go live or start the Store import again, click <b>Complete Store import</b></p>"
+msgstr "<p>前回のデータインポートは <b>[date]</b> に <b>CS-Cart [version]-jp-x [edition] から行われました。</b></p><p>前回のデータインポート後にインポート元ショップに対して加えられた変更（商品・注文の追加など）をインポート先ショップに反映させるには <b>更新データの反映</b> をクリックしてください。(インポート先ショップのデザインや各種設定は <span>保持されます</span>) なお、更新データの反映は何度でも実施することができます。</p><p>すべての調整が完了しインポート先ショップを本番稼働できる状態になりましたら <b>ショップデータのインポートを完了する</b> をクリックしてください。</p>"
+
+msgctxt "Languages::store_import.actualize_data"
+msgid "Actualize data"
+msgstr "更新データの反映"
+
+msgctxt "Languages::store_import.import_from"
+msgid "Import from"
+msgstr "インポート元"
+
+msgctxt "Languages::store_import.complete_store_import"
+msgid "Complete Store import"
+msgstr "ショップデータのインポートを完了する"
+
+msgctxt "Languages::store_import.import_data"
+msgid "Import data"
+msgstr "データのインポート"
+
+msgctxt "Languages::store_import.complete_configuration"
+msgid "Proceed to actualizing data"
+msgstr "「更新データの反映」に進む"
+
+msgctxt "Languages::store_import.admin_url"
+msgid "Admin panel URL"
+msgstr "管理画面のURL"
+
+msgctxt "Languages::store_import.companies_count"
+msgid "Number of storefronts"
+msgstr "ショップフロントの数"
+
+msgctxt "Languages::store_import.store_import"
+msgid "Store import"
+msgstr "ショップデータのインポート"
+
+msgctxt "Languages::store_import.local_store"
+msgid "Store path"
+msgstr "ショップのパス"
+
+msgctxt "Languages::store_import.select_store"
+msgid "Validate"
+msgstr "検証する"
+
+msgctxt "Languages::store_import.local_store_tooltip"
+msgid "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+msgstr "Enter the full path to the installation root directory of the store you want to import data from. For example '/var/www/examplestore' on UNIX-based systems or 'C:\\examplestore' on Windows"
+
+msgctxt "Languages::store_import.configure_store"
+msgid "Configure your store"
+msgstr "ショップの設定"
+
+msgctxt "Languages::store_import.finish_store"
+msgid "Finish store import"
+msgstr "完了"
+
+msgctxt "Languages::store_import.storefront_url"
+msgid "Storefront URL"
+msgstr "ショップフロントのURL"
+
+msgctxt "Languages::store_import.secure_storefront_url"
+msgid "Secure storefront URL"
+msgstr "HTTPS接続するショップフロントのURL"
+
+msgctxt "Languages::store_import.db_host"
+msgid "Database host"
+msgstr "データベースホスト"
+
+msgctxt "Languages::store_import.db_name"
+msgid "Database name"
+msgstr "データベース名"
+
+msgctxt "Languages::store_import.db_user"
+msgid "Database user"
+msgstr "データベースユーザー"
+
+msgctxt "Languages::store_import.table_prefix"
+msgid "Table prefix"
+msgstr "テーブルのプリフィックス"
+
+msgctxt "Languages::store_import.fill_form"
+msgid "<p>Check the data below before proceeding to the data import.</p><p><b>Warning!</b> The data import during this step <b>will overwrite everything (including your existing settings, products, design and layouts, etc.)</b><br />Also, all logs and statistics will be removed.</p><p><b>Pay attention</b> that the <b>Affiliate, Statistics, Recurring billing, Product configurator and Gift registry</b> add-ons are no longer supported, so, none of the related data will be imported from your old store to the new installation.</p>"
+msgstr "データのインポートを実施する前に下記の内容を確認してください。<br /><b>注意!</b> データをインポートすると <b>設定や商品情報、デザインやカテゴリーなどすべてのデータが上書きされます。</b><br />また、すべてのログや統計情報が削除されます。<br /><font color=\"red\">最新バージョンのCS-Cartに標準搭載されていないアドオンは移行されません。</font>データ移行完了後に手動によるアドオンのインストールおよび設定が必要です。"
+
+msgctxt "Languages::store_import.second_step_22x_notice"
+msgid "<p>Note that your original core settings and design will not be transferred, except for add-ons' settings and all custom blocks under \"Products\" location on the Layouts page with <i>Content: Products</i> and <i>Filling: Manually</i>. During the next step you will be able to locate them on the \"Products\" location under the main content block.</p>"
+msgstr "<p>アドオンの設定とブロック管理の「商品」タブにおいて独自に設定したブロックの一部設定を除く各種設定値は移行されません。</p><p>「CS-Cartマルチ決済 (SMBCファイナンスサービス)」アドオンの設定内容は移行されません。<br />データ移行後にアドオンをアンインストールし、再度インストールおよび設定を実施してください。</p>"
+
+msgctxt "Languages::store_import.second_step_30x_notice"
+msgid "<p></p>"
+msgstr "<p></p>"
+
+msgctxt "Languages::store_import.text_from"
+msgid "[product_name] [product_version] [product_edition]"
+msgstr "[product_name] [product_version] [product_edition]"
+
+msgctxt "Languages::store_import.from"
+msgid "From:"
+msgstr "インポート元:"
+
+msgctxt "Languages::store_import.text_to"
+msgid "To: [product_edition] [product_version]"
+msgstr "インポート先: [product_edition] [product_version]"
+
+msgctxt "Languages::store_import.edition_mapping_failed"
+msgid "Import from this edition is not supported"
+msgstr "このエディションのCS-Cartからのインポートには対応していません"
+
+msgctxt "Languages::store_import.configuration_test_failed"
+msgid "Configuration test failed"
+msgstr "設定テストに失敗しました"
+
+msgctxt "Languages::store_import.wrong_table_prefix"
+msgid "Store tables with the specified prefix are missing in the specified database."
+msgstr "データベース内に指定したプリフィックスを持つテーブルが存在しません。"
+
+msgctxt "Languages::store_import.path_does_not_exist"
+msgid "The specified directory does not exist. Please check if the path you entered is correct."
+msgstr "ご指定のディレクトリは存在しません。入力したパスが正しいか確認してください。"
+
+msgctxt "Languages::store_import.this_is_not_cart_path"
+msgid "The specified directory is not a valid store installation root folder."
+msgstr "ご指定のディレクトリは正常なCS-Cartのインストールディレクトリではありません。"
+
+msgctxt "Languages::store_import.text_configuration"
+msgid "<p><h4>The data from the old store was successfully imported.</h4><br/>You are now free to leave the Store import tool and customize the settings and design of your store. First of all, do the following:</p>"
+msgstr "<p><h4>インポート元ショップからのデータインポートが完了しました。</h4><br/>ショップの各種設定の変更やデザインの調整を実施いただけます。まずは以下の作業を実施してください :</p>"
+
+msgctxt "Languages::store_import.text_configuration2"
+msgid "<p>When you are ready customizing, you will be able to actualize the data by going to the Store import tool again and proceeding directly to the next step. Unlike the initial store import, data actualization will keep all your settings, layouts, and design.</p><p><strong>Attention!</strong> Data actualization will be impossible if you modify, remove, or add new [storefronts_vendors]. In this case, you will have to re-start the store import from the first step.</p>"
+msgstr "<p>ショップデータのインポート後にインポート元ショップのDBに対して加えられた変更（注文・商品の追加など）を、インポート先ショップに後から反映させることができます。一旦この「ショップデータのインポート」ページを離れ、デザインや各種設定の調整後に再びアクセスすると「ショップの指定」ではなく「ショップの設定」または「更新データの反映」から作業をスタートできます。「更新データの反映」ではインポート先ショップの設定やレイアウト、デザインを保持したままインポート元ショップのDBに対して加えられた変更を反映することができます。</p><p><strong>ご注意ください！！</strong> インポートされたショップを変更・削除したりショップを新規追加した場合には「更新データの反映」は実施いただけません。「ショップの指定」からショップデータのインポートを再度実行する必要があります。</p>"
+
+msgctxt "Languages::store_import.306_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.305_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.304_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.303_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.302_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.301_ultimate"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.224_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li>各種設定にはデフォルト値がセットされました。</li><li><font color=\"red\">基本設定 -> 会社名にはデフォルト値が設定されました。</font>送料計算やメール通知を正しく実施するためには再設定が必要です。</li><li>デザイン（テーマ、スタイルおよびレイアウト）にはデフォルト値がセットされました。</li><li>ブロック管理の「商品」タブにおいて独自に設定した商品ブロック（「ブロック内コンテンツ」に「商品」、「表示内容」に「手動」を指定したブロックのみ）はインポート先ショップの「商品」タブに移行されました。</li><li>独自に追加した商品詳細ページタブは移行されませんでした（アドオンが自動追加したタブは除く）</li><li>商品詳細ページタブの「説明」、「追加情報」、「添付ファイル」は <b>デザイン -> 商品タブ</b> に移行されました。</li><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.225_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for a Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li>各種設定にはデフォルト値がセットされました。</li><li><font color=\"red\">基本設定 -> 会社名にはデフォルト値が設定されました。</font>送料計算やメール通知を正しく実施するためには再設定が必要です。</li><li>デザイン（テーマ、スタイルおよびレイアウト）にはデフォルト値がセットされました。</li><li>ブロック管理の「商品」タブにおいて独自に設定した商品ブロック（「ブロック内コンテンツ」に「商品」、「表示内容」に「手動」を指定したブロックのみ）はインポート先ショップの「商品」タブに移行されました。</li><li>独自に追加した商品詳細ページタブは移行されませんでした（アドオンが自動追加したタブは除く）</li><li>商品詳細ページタブの「説明」、「追加情報」、「添付ファイル」は <b>デザイン -> 商品タブ</b> に移行されました。</li><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.301_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.302_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.303_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.304_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.305_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.306_professional"
+msgid "<ul><li>Go to <a href=\"[stores_section_link]\">Stores</a> section and set the correct <b>Storefront URL</b> for each Company.</li><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[stores_section_link]\">ショップ</a> ページに移動して各ショップに対して正しい <b>ショップフロントのURL</b> が設定されているか確認する</li><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.306_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.305_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.304_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.303_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.302_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.301_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.225_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li>各種設定にはデフォルト値がセットされました。</li><li><font color=\"red\">基本設定 -> 会社名にはデフォルト値が設定されました。</font>送料計算やメール通知を正しく実施するためには再設定が必要です。</li><li>デザイン（テーマ、スタイルおよびレイアウト）にはデフォルト値がセットされました。</li><li>ブロック管理の「商品」タブにおいて独自に設定した商品ブロック（「ブロック内コンテンツ」に「商品」、「表示内容」に「手動」を指定したブロックのみ）はインポート先ショップの「商品」タブに移行されました。</li><li>独自に追加した商品詳細ページタブは移行されませんでした（アドオンが自動追加したタブは除く）</li><li>商品詳細ページタブの「説明」、「追加情報」、「添付ファイル」は <b>デザイン -> 商品タブ</b> に移行されました。</li><li><b>クイックメニュー</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.224_multivendor"
+msgid "<ul><li>Go to <a href=\"[manage_languages_link]\">Languages</a> languages section and set the correct <b>Country</b> value for each language.</li></ul><p>Please pay attention to the following:</p><ul><li>Your settings were set to default.</li><li>The Company Settings were set to default.</li><li>Your design (theme, styles and layout) was set to default.</li><li>All custom blocks under \"Products\" location of the Block Manager with <i>Content: Products</i> and <i>Filling: Manually</i> were placed on the \"Products\" location under the main content block.</li><li>All your custom product tabs (except the product tabs added by add-ons) were not transferred.</li><li>\"Description\", \"Features\" and \"Files\" tabs were added to the \"Product tabs\" section.</li><li>The <b>Quick menu</b> was set to default.</li></ul>"
+msgstr "<ul><li><a href=\"[manage_languages_link]\">言語</a> ページに移動して各言語に正しい <b>国名</b> を割り当てる</li></ul><p>また、以下の点にもご注意ください :</p><ul><li>各種設定にはデフォルト値がセットされました。</li><li><font color=\"red\">基本設定 -> 会社名にはデフォルト値が設定されました。</font>送料計算やメール通知を正しく実施するためには再設定が必要です。</li><li>デザイン（テーマ、スタイルおよびレイアウト）にはデフォルト値がセットされました。</li><li>ブロック管理の「商品」タブにおいて独自に設定した商品ブロック（「ブロック内コンテンツ」に「商品」、「表示内容」に「手動」を指定したブロックのみ）はインポート先ショップの「商品」タブに移行されました。</li><li>独自に追加した商品詳細ページタブは移行されませんでした（アドオンが自動追加したタブは除く）</li><li>商品詳細ページタブの「説明」、「追加情報」、「添付ファイル」は <b>デザイン -> 商品タブ</b> に移行されました。</li><li><b>クイックリンク</b> をカスタマイズしていた場合はデフォルトの状態に変更されました。</li><li><font color=\"red\">CS-Cartに標準搭載されていないアドオンは移行されませんでした。</font>手動によるアドオンのインストールおよび設定が必要です。</li></ul>"
+
+msgctxt "Languages::store_import.progress_title"
+msgid "Upgrading to [to]"
+msgstr "右記へアップグレード [to]"
+
+msgctxt "Languages::store_import.updating_data"
+msgid "Updating data"
+msgstr "データを更新しています"
+
+msgctxt "Languages::store_import.converting_orders"
+msgid "Converting orders"
+msgstr "注文情報を変換しています"
+
+msgctxt "Languages::store_import.import_failed"
+msgid "Store import failed"
+msgstr "ショップデータのインポートに失敗しました"
+
+msgctxt "Languages::store_import.cloning_database"
+msgid "Cloning database"
+msgstr "データベースを複製しています"
+
+msgctxt "Languages::store_import.updating_languages"
+msgid "Updating languages"
+msgstr "言語変数を更新しています"
+
+msgctxt "Languages::store_import.done"
+msgid "Done"
+msgstr "完了"
+
+msgctxt "Languages::store_import.class_not_found"
+msgid "Import from this version is not supported"
+msgstr "このバージョンのCS-Cartからのインポートには対応していません"
+
+msgctxt "Languages::store_import.processing_addons"
+msgid "Updating addons"
+msgstr "アドオンを更新しています"
+
+msgctxt "Languages::store_import.actualization_completed"
+msgid "Actualization completed"
+msgstr "更新データの反映が完了しました"
+
+msgctxt "Languages::store_import.actualization_failed"
+msgid "Actualization failed"
+msgstr "更新データの反映に失敗しました"
+
+msgctxt "Languages::store_import.invalid_license"
+msgid "Sorry, the data import is impossible: no valid upgrade subscription found (read more about the <a title=\"Store Import: License Requirements\" target=\"_blank\" href=\"http://kb.cs-cart.com/store-import#license-requirements\">license requirements</a> for a store import).<br /><br />Contact us at <a href=\"mailto:sales@cs-cart.com\">sales@cs-cart.com</a> if you have any questions."
+msgstr "ショップデータをインポートできません : ショップデータをインポートするにはインポート先とインポート元のCS-Cartに有効なライセンスが設定されている必要があります。<br /><br />本件に関するお問い合わせは <a href=\"http://helpdesk.cs-cart.jp/index.php?/Tickets/Submit/RenderForm/2\" target=\"_blank\">こちら</a>"
+
+msgctxt "Languages::store_import.cant_connect_to_imported"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the imported database. Please contact tech support."
+msgstr "インポート先データベースにアクセスできません。データの損失を回避するためショップデータのインポートはキャンセルされました。CS-Cart日本語版サポートにご連絡ください。"
+
+msgctxt "Languages::store_import.cant_connect_to_original"
+msgid "Store import has been canceled to prevent the loss of data. Could not connect to the original database. Please contact tech support."
+msgstr "インポート元データベースにアクセスできません。データの損失を回避するためショップデータのインポートはキャンセルされました。CS-Cart日本語版サポートにご連絡ください。"
+
+msgctxt "SettingsSections::store_import::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::store_import::si_data"
+msgid "Store import data"
+msgstr "ショップ移行用データ"
+

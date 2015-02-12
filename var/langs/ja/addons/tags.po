@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::tags"
+msgid "Tags"
+msgstr "タグ"
+
+msgctxt "Addons::description::tags"
+msgid "Enables product tags"
+msgstr "商品やページにタグを付与することができます"
+
+msgctxt "Languages::tags_menu_description"
+msgid "Manage product and content page tags."
+msgstr "ショップの各ページに追加されたタグを管理します。"
+
+msgctxt "Languages::tmpl_my_tag_cloud"
+msgid "My tag cloud"
+msgstr "マイタグクラウド"
+
+msgctxt "Languages::popular_tags"
+msgid "Popular tags"
+msgstr "人気のタグ"
+
+msgctxt "Languages::sign_in_to_enter_tags"
+msgid "Sign in to enter tags"
+msgstr "ログインしてタグを登録"
+
+msgctxt "Languages::tag_cloud"
+msgid "Tag cloud"
+msgstr "タグクラウド"
+
+msgctxt "Languages::my_tags"
+msgid "My tags"
+msgstr "マイタグ"
+
+msgctxt "Languages::my_tags_summary"
+msgid "My tags summary"
+msgstr "マイタグの概要"
+
+msgctxt "Languages::tags"
+msgid "Tags"
+msgstr "タグ"
+
+msgctxt "Languages::block_tags"
+msgid "Tags"
+msgstr "タグ"
+
+msgctxt "Languages::block_tags_description"
+msgid "Product tags"
+msgstr "商品タグ"
+
+msgctxt "Languages::addons.tags.add_a_tag"
+msgid "add a tag"
+msgstr "タグの追加"
+
+msgctxt "Languages::items_marked_by_tag"
+msgid "Items marked by the tag \"[tag]\":"
+msgstr "タグ　\"[tag]\"　が登録された商品・ページ"
+
+msgctxt "Languages::my_items_marked_by_tag"
+msgid "My items marked by the tag \"[tag]\":"
+msgstr "タグ \"[tag]\" :"
+
+msgctxt "Languages::tag"
+msgid "Tag"
+msgstr "タグ"
+
+msgctxt "Languages::new_tag"
+msgid "New tag"
+msgstr "タグの追加"
+
+msgctxt "Languages::add_tag"
+msgid "Add tag"
+msgstr "タグの追加"
+
+msgctxt "SettingsSections::tags::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::tags::tags_for_products"
+msgid "Tags for products"
+msgstr "商品用タグ"
+
+msgctxt "SettingsOptions::tags::tags_for_pages"
+msgid "Tags for pages"
+msgstr "ページ用タグ"
+

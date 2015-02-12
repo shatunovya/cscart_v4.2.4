@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "価格表"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "PDFもしくはXLS形式での価格表を出力します"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "価格表"
+
+msgctxt "Languages::selected_fields"
+msgid "Selected fields"
+msgstr "選択済みフィールド"
+
+msgctxt "Languages::xml_info"
+msgid "Use this link to download the price list in XLS (MS Excel) format"
+msgstr "価格表をXLS（エクセル）形式でダウンロードするにはこのリンクをクリックしてください"
+
+msgctxt "Languages::ult_xml_info"
+msgid "Use this links to download the price list in XLS (MS Excel) format"
+msgstr "価格表をXLS（エクセル）形式でダウンロードするにはこのリンクをクリックしてください"
+
+msgctxt "Languages::pdf_info"
+msgid "Use this link to download the price list in PDF format"
+msgstr "価格表をPDF形式でダウンロードするにはこちらのリンクをクリックしてください"
+
+msgctxt "Languages::ult_pdf_info"
+msgid "Use this links to download the price list in PDF format"
+msgstr "価格表をPDF形式でダウンロードするにはこちらのリンクをクリックしてください"
+
+msgctxt "Languages::clear_cache_info"
+msgid "If columns were added or changed, please <a href=\"[clear_cache_url]\">clear the cache</a> to regenerate the price list."
+msgstr "カラムが追加・変更された場合には <a href=\"[admin_index]?dispatch=addons.manage&cc\">キャッシュをクリア</a> して価格表を再作成してください。"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "PDFを生成しています。 お待ちください..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "XLSファイルを生成しています。 お待ちください..."
+
+msgctxt "Languages::xls_currencies_note"
+msgid "Please, note: the prices in XLS will be indicated in base currency."
+msgstr "ご注意ください: 出力される価格にはベース通貨が使用されます。"
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "価格表を生成できません。お使いのサーバーに設定されているPHPのzipサポートを有効化してください。 参考URL:<a href=\"http://www.php.net/manual/ja/zip.installation.php\">http://www.php.net/manual/ja/zip.installation.php</a>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::price_list::table_layout_header"
+msgid "Table layout"
+msgstr "価格表レイアウト"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "フィールド"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "ソート順"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "カテゴリー単位でグルーピング"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "商品オプションを含む"
+
+msgctxt "SettingsOptions::price_list::xls_header"
+msgid "XLS layout"
+msgstr "エクセル形式でダウンロード"
+
+msgctxt "SettingsOptions::price_list::xls_url"
+msgid "XLS url"
+msgstr "エクセルURL"
+
+msgctxt "SettingsOptions::price_list::pdf_header"
+msgid "PDF layouts"
+msgstr "PDF形式でダウンロード"
+
+msgctxt "SettingsOptions::price_list::pdf_url"
+msgid "PDF url"
+msgstr "PDF URL"
+
+msgctxt "SettingsOptions::price_list::clear_header"
+msgid "Clear cache"
+msgstr "キャッシュのクリア"
+
+msgctxt "SettingsOptions::price_list::clear_url"
+msgid "Clear cache"
+msgstr "キャッシュのクリア"
+

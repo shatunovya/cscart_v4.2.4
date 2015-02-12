@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-05 07:00-0500\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Google export"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "Επεκτεινει το προσθετο Data Feeds ωστε να δουλευει με το Google Base και δημιουργει ενα παραδειγμα τετοιου data feed"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "Σημείωση <p>: Εναλλαξτε αυτή τη ρύθμιση εάν χρειάζεται να εγκαταστησετε Πολυ-γλωσσικες Google κατηγορίες . Υποστηρίζει, γαλλικά, γερμανικά, ιταλικά, ισπανικά και βρετανικά αγγλικά. Δώστε προσοχή ότι αυτή η λειτουργία μπορεί να πάρει ένα σημαντικό ποσό χρόνου.</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "Εναρξη Εισαγωγης"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "Γενικές πληροφορίες"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "Εγκατάσταση πρόσθετων γλωσσών για το Google κατηγορίες"
+

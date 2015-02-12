@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "出品者データ設定"
+
+msgctxt "Addons::description::vendor_data_premoderation"
+msgid "Lets you pre-moderate vendors activity"
+msgstr "出品者が登録するデータに関する各種設定を行います"
+
+msgctxt "Languages::product_approval_menu_description"
+msgid "Manage individual products or group of products supplied by the store vendors."
+msgstr "出品者が出品する商品を管理します。"
+
+msgctxt "Languages::vendor_data_premoderation"
+msgid "Vendor data premoderation"
+msgstr "出品者データ設定"
+
+msgctxt "Languages::product_approval"
+msgid "Product approval"
+msgstr "商品の承認"
+
+msgctxt "Languages::notify_vendor_by_email"
+msgid "Notify vendor by e-mail"
+msgstr "出品者にEメールで通知"
+
+msgctxt "Languages::product_approval_status_approved"
+msgid "Your product [product] has been approved by the store administration and added to the product catalog. Now shoppers can order this product in the store."
+msgstr "商品 [product] に関する登録・更新がシステム管理者により承認され、マーケットプレイスに反映されました。"
+
+msgctxt "Languages::product_approval_status_disapproved"
+msgid "Your product [product] has been disapproved by the store administration"
+msgstr "商品 [product] に関する登録・更新がシステム管理者により却下されました。"
+
+msgctxt "Languages::products_approval_status_approved"
+msgid "Thank you for submitting new products. The following products have been approved by the store administration and added to the product catalog"
+msgstr "次の商品に関する登録・更新がシステム管理者により承認され、マーケットプレイスに反映されました。"
+
+msgctxt "Languages::text_shoppers_can_order_products"
+msgid "Now shoppers can order these products in the store."
+msgstr "登録・更新いただいた商品はマーケットプレイスにて購入可能な状態になりました。"
+
+msgctxt "Languages::products_approval_status_disapproved"
+msgid "Thank you for submitting new products. The following products have been disapproved by the store administration"
+msgstr "次の商品に関する登録・更新はシステム管理者により却下されました。"
+
+msgctxt "Languages::approve_selected"
+msgid "Approve selected"
+msgstr "選択したデータの登録・更新を承認"
+
+msgctxt "Languages::disapprove_selected"
+msgid "Disapprove selected"
+msgstr "選択したデータの登録・更新を却下"
+
+msgctxt "Languages::pre_moderation"
+msgid "Products require prior approval"
+msgstr "商品データ登録にはシステム管理者の承認が必要"
+
+msgctxt "Languages::pre_moderation_edit"
+msgid "Approve product info updates"
+msgstr "商品データ更新にはシステム管理者の承認が必要"
+
+msgctxt "Languages::pre_moderation_edit_vendors"
+msgid "Approve vendor profile updates"
+msgstr "出品者データ更新にはシステム管理者の承認が必要"
+
+msgctxt "Languages::text_not_approved_products"
+msgid "You have products that require your approval. Please <a href=\"[link]\">follow this link</a> to review these products."
+msgstr "確認が必要な商品データの登録・更新申請があります。以下のURLにアクセスのうえ申請を処理してください。: <a href=\"[link]\">処理ページへ移動</a>"
+
+msgctxt "Languages::products_approval_status_changed"
+msgid "Your product(s) have been [status]"
+msgstr "商品の登録・更新が[status]されました"
+
+msgctxt "Languages::approval"
+msgid "Approval"
+msgstr "承認"
+
+msgctxt "Languages::text_vendor_profile_changes_notice"
+msgid "Are you sure that you want to update the profile? Information about your company will not be available in the customer area until the administrator approves it."
+msgstr "出品者データを更新してよろしいですか？ 出品者データはシステム管理者が更新内容を承認するまで外部に非表示となります。"
+
+msgctxt "Languages::privileges.manage_product_premoderation"
+msgid "Approve vendor products"
+msgstr "出品者の商品データ更新の承認"
+
+msgctxt "SettingsSections::vendor_data_premoderation::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_prior_approval"
+msgid "Products require prior approval"
+msgstr "商品データ登録に関する承認"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::products_updates_approval"
+msgid "Approve product info updates"
+msgstr "商品データ更新に関する承認"
+
+msgctxt "SettingsOptions::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "Approve vendor profile updates"
+msgstr "出品者データ更新に関する承認"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_prior_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"不要\" - すべての出品者がシステム管理者の承認なしで商品データを登録できます; \"個別設定\" - 出品者毎に承認手続きの要否を設定します (出品者の登録・編集ページの「アドオン」タブ); \"必須\" - すべての出品者は商品データの登録に際してシステム管理者の承認が必要となります"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::products_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"不要\" - すべての出品者がシステム管理者の承認なしで商品データを更新できます; \"個別設定\" - 出品者毎に承認手続きの要否を設定します (出品者の登録・編集ページの「アドオン」タブ); \"必須\" - すべての出品者は商品データの更新に際してシステム管理者の承認が必要となります"
+
+msgctxt "SettingsTooltips::vendor_data_premoderation::vendor_profile_updates_approval"
+msgid "\"None\" - this option is disabled for all vendors; \"Custom\" - the option is enabled on a vendor details page (the Add-ons tab); \"All vendors\" - the option is enabled for all vendors."
+msgstr "\"不要\" - すべての出品者がシステム管理者の承認なしで出品者データを更新できます; \"個別設定\" - 出品者毎に承認手続きの要否を設定します (出品者の登録・編集ページの「アドオン」タブ); \"必須\" - すべての出品者は出品者データの更新に際してシステム管理者の承認が必要となります"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::none"
+msgid "None"
+msgstr "不要"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::custom"
+msgid "Custom"
+msgstr "個別設定"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::vendor_profile_updates_approval::all"
+msgid "All vendors"
+msgstr "必須"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::none"
+msgid "None"
+msgstr "不要"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::custom"
+msgid "Custom"
+msgstr "個別設定"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_prior_approval::all"
+msgid "All vendors"
+msgstr "必須"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::none"
+msgid "None"
+msgstr "不要"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::custom"
+msgid "Custom"
+msgstr "個別設定"
+
+msgctxt "SettingsVariants::vendor_data_premoderation::products_updates_approval::all"
+msgid "All vendors"
+msgstr "必須"
+

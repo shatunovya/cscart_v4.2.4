@@ -1,0 +1,17 @@
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+# Pleas note that RewriteBase setting is obsolete use it only in case you experience  some problems with SEO addon.
+# Some hostings require RewriteBase to be uncommented
+# Example:
+# Your store url is http://www.yourcompany.com/store/cart
+# So "RewriteBase" should be:
+# RewriteBase /store/cart
+# RewriteBase /
+
+RewriteCond %{REQUEST_URI} .*mod_rewrite$
+RewriteRule . index.php [L,QSA]
+
+</IfModule>
+

@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::google_export"
+msgid "Google export"
+msgstr "Googleエクスポート"
+
+msgctxt "Addons::description::google_export"
+msgid "Expands the Data Feeds add-on to work with Google Base and creates an example of such data feed"
+msgstr "データフィードアドオンの機能を拡張してGoogleショッピングに対応させます"
+
+msgctxt "Languages::google_export_general_info"
+msgid "<p>Note: toggle this setting if you need multi-language Google categories installed. Supports French, German, Italian, Spanish, and British English. Pay attention that this operation can take a significant amount of time.</p>"
+msgstr "<p>注意: 複数言語でGoogle商品カテゴリを登録する場合にのみ下記の設定をチェックして「保存」ボタンをクリックしてください。<br />対応言語はアメリカ英語、イギリス英語、フランス語、ドイツ語、イタリア語、スペイン語となります。<br />（設定の有効化に時間がかかる場合があります）</p>"
+
+msgctxt "Languages::google_export_start_import"
+msgid "Start importing"
+msgstr "インポート中"
+
+msgctxt "SettingsSections::google_export::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::google_export::general_info"
+msgid "General info"
+msgstr "全般"
+
+msgctxt "SettingsOptions::google_export::additional_langs"
+msgid "Install additional languages for Google categories"
+msgstr "複数言語のGoogle商品カテゴリを設定する"
+

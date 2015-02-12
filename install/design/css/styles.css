@@ -1,0 +1,394 @@
+body {
+    background: url("../images/main_bg.png") center top #e2e2e2;
+    font-size: 13px;
+    padding: 0;
+    position: relative;
+}
+label, input, select {
+    font-size: 13px;
+}
+#main {
+    width: 700px;
+    margin: 0 auto;
+}
+.btn {
+    text-decoration: none;
+}
+.help-inline p {
+    margin-bottom: 0;
+}
+
+/* header */
+.navbar .navbar-inner {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.navbar .nav > li > a,
+.modal {
+    outline: 0;
+}
+.navbar-install-header {
+    margin-bottom: 0;
+}
+.navbar-install-header .navbar-inner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar-install-header span {
+    line-height: 40px;
+    cursor: default;
+}
+.navbar-install-header .name {
+    font-weight: bold;
+    color: #ccc;
+    margin-right: 11px;
+}
+.navbar-install-header .version {
+    color: #999;
+}
+.dropdown-top-menu-item {
+    color: #999;
+}
+.dropdown-top-menu-item .caret {
+    border-color: #ccc;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.dropdown-top-menu-item:hover .caret {
+    border-color: #fff;
+}
+.dropdown-top-menu-item ul {
+    background: #323232;
+    color: #999;
+    margin-top: 0px !important;
+}
+.dropdown-top-menu-item ul a {
+    color: #999;
+    text-decoration: none;
+}
+.dropdown-top-menu-item .dropdown-menu:before,
+.dropdown-top-menu-item .dropdown-menu:after {
+    border-bottom-color: #323232 !important;
+}
+
+/* content */
+#content {
+    background: #fff;
+    padding: 30px 30px 20px;
+}
+#content .btn {
+    font-size: 13px;
+}
+#content .modal-footer {
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+h3 {
+    color: #4c4c4c;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+#content h3:first-child {
+    margin-top: -10px;
+}
+a {
+    text-decoration: underline;
+}
+form {
+    margin-bottom: 0;
+}
+
+/* first step */
+.license-agreement {
+    width: 628px;
+    max-width: 628px;
+    min-width: 628px;
+    height: 228px;
+    min-height: 228px;
+    font-size: 13px
+}
+textarea.license-agreement {
+    cursor: default;
+}
+.license-choice {
+    overflow: hidden;
+    margin-bottom: 24px;
+    padding-top: 16px;
+}
+.license-choice .item {
+    width: 290px;
+    height: 54px;
+    padding: 10px;
+    float: right;
+    background: #fafafa;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.license-choice .item:first-child {
+    float: left;
+}
+.license-choice .item-checked {
+    background: #f0f5f7;
+}
+.license-choice .item label {
+    font-size: 13px;
+}
+.license-choice .item input.license-number {
+    width: 278px;
+    font-size: 13px;
+}
+.agreements {
+    position: relative;
+}
+.agreements.error {
+    height: 66px;
+}
+.license-agreement-checkbox {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 4px;
+}
+#license_agreement_error_message {
+    display: block;
+    width: 500px;
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 26px;
+    color: #B94A48;
+}
+
+/* second step */
+.alert {
+    margin-bottom: 14px;
+}
+.alert .btn {
+    margin-top: 4px;
+}
+.setting-wrap {
+    margin-bottom: 24px;
+}
+.advanced-options-title,
+.advanced-options-title:hover {
+    text-decoration: none;
+    color: #999;
+}
+.advanced-options-title:hover {
+    color: #666;
+}
+.advanced-options-title span {
+    border-bottom: 1px dotted;
+}
+.advanced-options-title .caret {
+    border-top-color: #999;
+    margin-left: 4px;
+    position: relative;
+    top: 7px;
+}
+.advanced-options-title.collapsed .caret {
+    border-top-color: transparent;
+    border-left: 4px solid #999;
+    border-bottom: 4px solid transparent;
+    top: 6px;
+    margin-left: 6px;
+}
+.advanced-options-title:hover .caret {
+    border-top-color: #666;
+}
+.advanced-options-title.collapsed:hover .caret {
+    border-top-color: transparent;
+    border-left: 4px solid #666;
+}
+.in.collapse {
+    padding-top: 10px;
+}
+.settings {
+    margin-bottom: 14px;
+    padding: 10px;
+    line-height: 18px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.settings.checking-result {
+    padding-bottom: 0;
+}
+.requirement {
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #ebebeb;
+}
+.requirement:last-child {
+    border-bottom: none;
+}
+.requirement p.summary {
+    margin-right: 70px;
+    margin-bottom: 0;
+}
+.requirement .control-label {
+    text-align: left;
+}
+.label-value {
+    padding-top: 6px;
+}
+.settings .control-group-last {
+    margin-bottom: 0 !important;
+}
+.settings .control-group {
+    padding: 10px 10px;
+}
+.settings .control-group .controls {
+    margin-left: 190px;
+}
+.settings .control-group .controls input[type="text"],
+.settings .control-group .controls input[type="password"] {
+    width: 280px;
+}
+.settings .control-group:hover {
+    background: #f5f5f5;
+}
+.form-horizontal .control-group {
+    margin-bottom: 0;
+}
+.language-choice label {
+    float: left;
+    width: 180px;
+    padding-top: 0 !important;
+}
+.annotate {
+    display: block;
+}
+.theme-gallery {
+    margin-bottom: 24px;
+}
+.gallery-line {
+    height: 210px;
+    margin-bottom: 20px;
+}
+.gallery-line .item {
+    float: left;
+    width: 200px;
+    height: 228px;
+    margin-left: 20px;
+}
+.gallery-line .item:first-child {
+    margin-left: 0;
+}
+.gallery-line .item img {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.gallery-line .item .title {
+    text-align: center;
+    display: none;
+}
+.gallery-line .item-checked img {
+    box-shadow: 0 0 8px 2px #8c8c8c;
+}
+.gallery-line .item-checked .title {
+    display: block;
+}
+
+/* footer */
+.modal-footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* microformat */
+.hidden {
+    display: none;
+}
+
+/* Popup dialog styles */
+.ui-dialog .ui-dialog-content.ui-widget-content {
+    max-height: 310px !important;
+    min-height: 100px !important;
+    overflow: visible;
+}
+.object-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.buttons-container-picker {
+    padding: 15px 14px 15px 24px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 0;
+    text-align: right; /* right align buttons */
+    border-top: 1px solid #ddd;
+    background: #f5f5f5;
+
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+
+    -moz-box-shadow: inset 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+}
+.object-container .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0; /* account for input[type="submit"] which gets the bottom margin like all other inputs */
+}
+/* but override that for button groups */
+.object-container .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.ui-dialog.ui-widget {
+    padding: 0;
+}
+.ui-dialog .ui-dialog-content {
+    overflow: hidden;
+}
+.ui-widget-content a {
+    color: #0088CC;
+}
+.ui-widget-content a:hover {
+    text-decoration: underline;
+}
+.ui-widget-content a.btn {
+    color: #404040;
+    text-decoration: none;
+}
+.ui-widget-content a.btn-primary {
+    color: #fff;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
+    background: url("../images/lib/ui/ui-icons_888888_256x240.png") no-repeat -96px -128px;
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+}
+.ui-dialog .ui-dialog-content.ui-widget-content {
+    padding: 13px 0 0;
+}
+.ui-dialog .ui-widget-header .ui-dialog-title {
+    font-size: 18px;
+}
+.ui-dialog .ui-widget-header.ui-dialog-titlebar {
+    padding-left: 10px;
+}
+.ui-dialog .requirement {
+    padding: 0 5px;
+}
+.ui-dialog .control-group.error .help-inline {
+    display: block;
+    width: 280px;
+    padding: 6px 0 0;
+}
+.ui-dialog .control-label {
+    width: 170px;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}

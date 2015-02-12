@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Store locator"
+msgstr "店舗所在地"
+
+msgctxt "Addons::description::store_locator"
+msgid "Lets you place local stores on map and inform customers about their nearest stores"
+msgstr "店舗所在地に関するページを生成します"
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "地図上に表示"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "APIキーを入力してください"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "店舗所在地"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "店舗所在地ブロック"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "住所が見つかりません"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "店舗所在地の指定"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "セット"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "店舗所在地の編集"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "店舗所在地の追加"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "店舗所在地の追加"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "位置情報"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "緯度"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "経度"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "すべてのショップ"
+
+msgctxt "Languages::zoom"
+msgid "Map zoom"
+msgstr "ズームレベルのデフォルト値"
+
+msgctxt "Languages::map_type_control"
+msgid "MapType control"
+msgstr "地図の種類の制御"
+
+msgctxt "Languages::zoom_control"
+msgid "Zoom control"
+msgstr "地図の拡大・縮小"
+
+msgctxt "Languages::scale_control"
+msgid "Scale control"
+msgstr "スケールコントロール"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::store_locator::provider"
+msgid "Map provider"
+msgstr "地図情報プロバイダ"
+
+msgctxt "SettingsOptions::store_locator::map_provider"
+msgid "Map"
+msgstr "地図情報プロバイダ"
+
+msgctxt "SettingsOptions::store_locator::settings"
+msgid "Settings"
+msgstr "設定"
+
+msgctxt "SettingsVariants::store_locator::map_provider::google"
+msgid "Google"
+msgstr "Google"
+

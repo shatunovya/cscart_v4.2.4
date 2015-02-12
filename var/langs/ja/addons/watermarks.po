@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::watermarks"
+msgid "Watermarks"
+msgstr "ウォーターマーク"
+
+msgctxt "Addons::description::watermarks"
+msgid "Allows you to add watermarks to product and category images"
+msgstr "商品とカテゴリー画像にウォーターマークを付与することができます"
+
+msgctxt "Languages::wt_watermarks"
+msgid "Watermarks"
+msgstr "ウォーターマーク"
+
+msgctxt "Languages::wt_graphic_watermark"
+msgid "Graphic watermark"
+msgstr "画像ウォーターマーク"
+
+msgctxt "Languages::wt_text_watermark"
+msgid "Text watermark"
+msgstr "テキストウォーターマーク"
+
+msgctxt "Languages::wt_watermark_vertical_position"
+msgid "Watermark vertical position"
+msgstr "ウォーターマークの縦位置"
+
+msgctxt "Languages::wt_watermark_horizontal_position"
+msgid "Watermark horizontal position"
+msgstr "ウォーターマークの横位置"
+
+msgctxt "Languages::wt_watermark_position"
+msgid "Watermark position"
+msgstr "ウォーターマークの位置"
+
+msgctxt "Languages::wt_watermark_image"
+msgid "Watermark image"
+msgstr "ウォーターマーク用画像"
+
+msgctxt "Languages::wt_watermark_text"
+msgid "Watermark text"
+msgstr "ウォーターマーク用テキスト"
+
+msgctxt "Languages::wt_font"
+msgid "Font"
+msgstr "フォント"
+
+msgctxt "Languages::wt_font_color"
+msgid "Font color"
+msgstr "フォント色"
+
+msgctxt "Languages::wt_font_size_icon"
+msgid "Font size (thumbnail)"
+msgstr "フォントサイズ (サムネイル)"
+
+msgctxt "Languages::wt_font_size_detailed"
+msgid "Font size (larger image)"
+msgstr "フォントサイズ (拡大画像)"
+
+msgctxt "Languages::wt_watermark_icon"
+msgid "Thumbnail watermark"
+msgstr "サムネイル用ウォーターマーク"
+
+msgctxt "Languages::wt_watermark_detailed"
+msgid "Popup larger image watermark"
+msgstr "拡大画像用ウォーターマーク"
+
+msgctxt "Languages::wt_fail_apply_graphic_watermark"
+msgid "Failed to apply the watermark to [image_type]. The watermark image is not added."
+msgstr "[image_type] へのウォーターマークの適用に失敗しました。"
+
+msgctxt "Languages::wt_icons"
+msgid "thumbnails"
+msgstr "サムネイル"
+
+msgctxt "Languages::wt_detailed"
+msgid "popup larger images"
+msgstr "拡大画像"
+
+msgctxt "Languages::wt_images_access_description"
+msgid "To deny access to your original images, please add the following instructions to the '.htaccess' file in the 'images' directory of your installation. It will protect your original images. Even if an original image is opened, the corresponding watermarked image will be show instead."
+msgstr "オリジナル画像へのアクセスを禁止するには '.htaccess' ファイルに以下の記述を追加してください。オリジナル画像へのアクセスが行われた場合にも、ウォーターマーク付きの画像を表示します。"
+
+msgctxt "Languages::wt_watermarks_access_description"
+msgid "To generate watermarked images automatically even if they are requested not from your store pages, please add the '.htaccess' file with the following instructions to the 'images/watermarked' directory of your installation."
+msgstr "CS-Cart以外のページからのアクセスに対してもウォーターマーク付き画像を表示するには、以下の内容を記述した '.htaccess' ファイルを 'images/wateramarked' ディレクトリにアップロードしてください。"
+
+msgctxt "Languages::wt_access_note"
+msgid "Please note, if you disable or uninstall the 'Watermarks' add-on, you should remove these instructions from '.htaccess' files manually. Otherwise category and product images will be unavailable."
+msgstr "ウォーターマークアドオンを無効化またはアンインストールした場合には、'.htaccess' に記述されている以下の内容を手動で削除する必要があります。削除しない場合、カテゴリー画像および商品画像が表示されなくなります。"
+
+msgctxt "Languages::wt_access_warning"
+msgid "Watermark creating is disabled. If there are any \"Rewrite watermarks rules\" instructions in the \"images/.htaccess\" file, you should remove them manually. Otherwise category and product images will be unavailable."
+msgstr "ウォーターマークの生成が無効化されています。\"images/.htaccess\" に \"Rewrite watermarks rules\" などウォーターマークに関する記述がある場合は削除してください。削除しない場合、カテゴリー画像および商品画像が表示されなくなります。"
+
+msgctxt "Languages::wt_images_access_info"
+msgid "Images access"
+msgstr "画像へのアクセス"
+
+msgctxt "SettingsSections::watermarks::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::watermarks::watermark"
+msgid "Watermark"
+msgstr "ウォーターマーク"
+
+msgctxt "SettingsOptions::watermarks::apply_to_product"
+msgid "Product watermarks"
+msgstr "商品画像用ウォーターマーク"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_icons"
+msgid "Resized images"
+msgstr "縮小画像"
+
+msgctxt "SettingsOptions::watermarks::use_for_product_detailed"
+msgid "Original size images"
+msgstr "拡大画像"
+
+msgctxt "SettingsOptions::watermarks::apply_to_categories"
+msgid "Category watermarks"
+msgstr "カテゴリー画像用ウォーターマーク"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_icons"
+msgid "Resized images"
+msgstr "縮小画像"
+
+msgctxt "SettingsOptions::watermarks::use_for_category_detailed"
+msgid "Original size images"
+msgstr "拡大画像"
+
+msgctxt "SettingsOptions::watermarks::images_access_info"
+msgid "Images access"
+msgstr "画像へのアクセス"
+

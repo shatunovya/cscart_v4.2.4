@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-11-20 19:01-0500\n"
+
+msgctxt "Addons::name::data_feeds"
+msgid "Data feeds"
+msgstr "データフィード"
+
+msgctxt "Addons::description::data_feeds"
+msgid "Makes it possible to create product data feeds in CSV"
+msgstr "指定したフォーマットで商品データをエクスポートできます"
+
+msgctxt "Languages::data_feeds"
+msgid "Data feeds"
+msgstr "データフィード"
+
+msgctxt "Languages::data_feed"
+msgid "Data feed"
+msgstr "データフィード"
+
+msgctxt "Languages::export_by_cron"
+msgid "Export by cron"
+msgstr "クロンによるエクスポート"
+
+msgctxt "Languages::export_by_cron_to"
+msgid "Export by cron to"
+msgstr "クロンによるエクスポート先"
+
+msgctxt "Languages::add_new_datafeed"
+msgid "New data feed"
+msgstr "データフィードの追加"
+
+msgctxt "Languages::add_datafeed"
+msgid "Add data feed"
+msgstr "データフィードの追加"
+
+msgctxt "Languages::datafeed_name"
+msgid "Data feed name"
+msgstr "データフィード名"
+
+msgctxt "Languages::save_directory"
+msgid "Server directory"
+msgstr "サーバーディレクトリ"
+
+msgctxt "Languages::ftp_url"
+msgid "FTP server"
+msgstr "FTPサーバー"
+
+msgctxt "Languages::ftp_url_hint"
+msgid "The format is: FTPHOST[:PORT][/DIRECTORY]. Example: ftp.yourhost.com:21/home/username/folder"
+msgstr "入力形式: FTPHOST[:PORT][/DIRECTORY]. 例: ftp.yourhost.com:21/home/username/folder"
+
+msgctxt "Languages::ftp_user"
+msgid "FTP username"
+msgstr "FTPユーザー名"
+
+msgctxt "Languages::ftp_pass"
+msgid "FTP password"
+msgstr "FTPパスワード"
+
+msgctxt "Languages::fields"
+msgid "Fields"
+msgstr "フィールド"
+
+msgctxt "Languages::field_name"
+msgid "Field name"
+msgstr "フィールド名"
+
+msgctxt "Languages::field_type"
+msgid "Field type"
+msgstr "フィールドタイプ"
+
+msgctxt "Languages::map_fields"
+msgid "Fields mapping"
+msgstr "フィールドのマッピング"
+
+msgctxt "Languages::update_datafeed"
+msgid "Editing data feed"
+msgstr "データフィードの編集"
+
+msgctxt "Languages::export_cron_hint"
+msgid "Use the following line to run the script according to schedule"
+msgstr "エクスポートを定期実行するには以下の形式で記述してください:"
+
+msgctxt "Languages::exported_items"
+msgid "Exported items"
+msgstr "エクスポート対象"
+
+msgctxt "Languages::ftp_connection_problem"
+msgid "Unable connect to FTP server. Please, check FTP connection information"
+msgstr "FTPサーバーに接続できませんでした。 FTPの接続情報を確認してください。"
+
+msgctxt "Languages::categories_products"
+msgid "Products from categories"
+msgstr "カテゴリー内の商品"
+
+msgctxt "Languages::local_export"
+msgid "Download"
+msgstr "ダウンロード"
+
+msgctxt "Languages::upload_to_ftp"
+msgid "Upload to FTP server"
+msgstr "FTPサーバーにアップロード"
+
+msgctxt "Languages::cron_export"
+msgid "Cron export settings"
+msgstr "クロンによるエクスポートの設定"
+
+msgctxt "Languages::export_to_server"
+msgid "Export to server"
+msgstr "サーバーへエクスポート"
+
+msgctxt "Languages::export_to_ftp"
+msgid "FTP server options"
+msgstr "FTPサーバーの設定"
+
+msgctxt "Languages::ftp"
+msgid "FTP"
+msgstr "FTP"
+
+msgctxt "Languages::check_server_export_settings"
+msgid "Check server export settings"
+msgstr "サーバーのエクスポート設定を確認してください"
+
+msgctxt "Languages::exclude_disabled_products"
+msgid "Exclude disabled products"
+msgstr "無効化された商品を除外"
+
+msgctxt "Languages::general_settings"
+msgid "General settings"
+msgstr "基本設定"
+
+msgctxt "Languages::enclosure"
+msgid "Enclosure"
+msgstr "囲い文字"
+
+msgctxt "SettingsSections::data_feeds::general"
+msgid "General"
+msgstr "基本設定"
+
+msgctxt "SettingsOptions::data_feeds::cron_password"
+msgid "Cron password"
+msgstr "クロン用パスワード"
+
