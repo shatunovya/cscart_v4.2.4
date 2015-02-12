@@ -1,0 +1,74 @@
+DirectoryIndex index.html index.php
+
+<IfModule mod_headers.c>
+
+	<IfModule mod_rewrite.c>
+		AddEncoding gzip .gz
+		RewriteCond %{REQUEST_FILENAME} \.(js|css)$
+		RewriteCond %{HTTP:Accept-encoding} gzip
+		RewriteCond %{REQUEST_FILENAME}.gz -f
+		RewriteRule ^(.*)$ $1.gz [QSA,L]
+	</IfModule>
+
+	<FilesMatch .*\.css.gz$>
+		<IfModule mod_expires.c>
+			Header unset ETag
+			FileETag None
+			ExpiresActive On
+			ExpiresDefault "access plus 1 year"
+		</IfModule>
+
+		ForceType text/css
+		Header set Content-Encoding: gzip
+		Header set Cache-control: private
+	</FilesMatch>
+
+	<FilesMatch .*\.js.gz$>
+		<IfModule mod_expires.c>
+			Header unset ETag
+			FileETag None
+			ExpiresActive On
+			ExpiresDefault "access plus 1 year"
+		</IfModule>
+		
+		ForceType text/javascript
+		Header set Content-Encoding: gzip
+		Header set Cache-control: private
+	</FilesMatch>
+
+	<FilesMatch "\.(ttf|ttc|otf|eot|woff|css)$">
+		Header set Access-Control-Allow-Origin "*"
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+# Please note that RewriteBase setting is obsolete use it only in case you experience  some problems with SEO addon.
+# Some hostings require RewriteBase to be uncommented
+# Example:
+# Your store url is http://www.yourcompany.com/store/cart
+# So "RewriteBase" should be:
+# RewriteBase /store/cart
+# RewriteBase /
+Options -MultiViews
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_URI} ^api/(.*)$ [or]
+RewriteCond %{REQUEST_URI} .*/api/(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .*api/(.*)$ api.php?_d=$1&ajax_custom=1 [L,QSA]
+
+RewriteCond %{REQUEST_URI} \.(png|gif|ico|swf|jpe?g|js|css|ttf|svg|eot|woff|yml|xml)$ [or]
+RewriteCond %{REQUEST_URI} store_closed.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*?)\/(.*)$ $2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L,QSA]
+
+</IfModule>
+

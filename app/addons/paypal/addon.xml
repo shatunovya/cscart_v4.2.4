@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>paypal</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <name>Paypal</name>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="paypal_ipn_settings">
+                        <type>header</type>
+                    </item>
+                    <item id="override_customer_info">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="test_mode" edition_type="ROOT,MULTIVENDOR">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="template">
+                        <type>permanent_template</type>
+                        <default_value>statuses_map.tpl</default_value>
+                    </item>
+                    <item id="template">
+                        <type>permanent_template</type>
+                        <default_value>logo_uploader.tpl</default_value>
+                    </item>
+                    <item id="pp_statuses">
+                        <type>hidden</type>
+                        <default_value>a:10:{s:8:"refunded";s:1:"I";s:9:"completed";s:1:"P";s:7:"pending";s:1:"O";s:17:"canceled_reversal";s:1:"I";s:7:"created";s:1:"O";s:6:"denied";s:1:"I";s:7:"expired";s:1:"F";s:8:"reversed";s:1:"I";s:9:"processed";s:1:"P";s:6:"voided";s:1:"P";}</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_paypal_delete_payment_processors</item>
+    </functions>
+</addon>
